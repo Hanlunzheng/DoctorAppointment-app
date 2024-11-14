@@ -2,8 +2,8 @@
 
 import validator from "validator";
 import { v2 as cloudinary } from "cloudinary";
-import bcrypt from "bcrypt";
-import razorpay from "razorpay";
+// import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 import userModel from "../models/userModel.js";
 
