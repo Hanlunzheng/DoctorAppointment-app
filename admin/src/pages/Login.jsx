@@ -87,10 +87,18 @@ const Login = () => {
         {state === "Admin" ? (
           <div>
             <h1 className="font-bold text-lg">Admin Login</h1>
+            <div className="mt-3 ">
+              <p className="">Email: admin@tryme.com</p>
+              <p>Password: admin12345678</p>
+            </div>
           </div>
         ) : (
           <div className="flex flex-col gap-4">
             <h1 className="font-bold text-lg">Doctor Login</h1>
+            <div className="mt-3 ">
+              <p className="">Email: james@gmail.com</p>
+              <p>Password: 123456789</p>
+            </div>
           </div>
         )}
 
