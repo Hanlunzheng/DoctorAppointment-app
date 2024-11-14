@@ -42,6 +42,17 @@ const Navbar = () => {
         </NavLink>
       </ul>
       <div className="flex items-center gap-4">
+         <button
+          className="bg-primary px-4 py-2 border rounded-full text-white"
+          onClick={() =>
+            window.open(
+              "https://doctorappointment-app-admin.onrender.com",
+              "_blank"
+            )
+          }
+        >
+          admin panel
+        </button>
         {token && userData ? (
           <div className="flex justify-center items-center gap-4">
             <img className="w-8 rounded-full" src={userData.image} alt="" />
